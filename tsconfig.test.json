@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".test-dist",
+    "rootDir": ".",
+    "noEmit": false
+  },
+  "include": ["lib/pz-naver-seo/**/*.ts", "tests/pz-naver-seo/**/*.test.ts"]
+}
